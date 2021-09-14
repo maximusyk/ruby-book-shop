@@ -1,0 +1,73 @@
+ua:
+  layouts:
+    application:
+      title: "Книжкова полиця самоврядування"
+      home: "Головна"
+      questions: "Питання"
+      news: "Новини"
+      contact: "Контакти"
+
+  store:
+    index:
+      title_html: "Ваш каталог самоврядування"
+      add_html: "Додати в кошик"
+
+  carts:
+    cart:
+      title: "Ваш кошик"
+      empty: "Очистити кошик"
+      checkout: "Купити"
+
+  number:
+    currency:
+      format:
+        unit: "USD"
+        precision: 2
+        separator: ","
+        delimiter: "."
+        format: "%n&nbsp;%u"
+
+  orders:
+    new:
+      legend: "Введіть свої дані"
+    form:
+      name: "Ім'я"
+      address_html: "Адреса"
+      email: "E-mail"
+      pay_type: "Оплатити за допомогою"
+      pay_prompt_html: "Виберіть спосіб оплати"
+      submit: "Зробити замовлення"
+      pay_types:
+        check: "Чек"
+        credit_card: "Кредитна карта"
+        purchase_order: "Замовлення на придбання"
+      check_pay_type:
+        routing_number: "# Маршрутизація"
+        account_number: "# Рахунок"
+      credit_card_pay_type:
+        cc_number: "Номер"
+        expiration_date: "Термін дії"
+      purchase_order_pay_type:
+        po_number: "Номер"
+
+  activerecord:
+    errors:
+      messages:
+        inclusion: "Не включені до списку"
+        blank: "Не можна залишати порожнім"
+    models:
+      order: "замовлення"
+    attributes:
+      order:
+      address: "Адреса"
+      name: "Ім'я"
+      email: "E-mail"
+      pay_type: "Спосіб оплати"
+  errors:
+    template:
+      body: "Існують проблеми з такими полями:"
+      header:
+        one: "Помилка 1 не дозволила зберегти цю %{model}"
+        other: "%{count} помилки перешкоджають збереженню цього %{model}"
+
+  thanks: "Дякуємо за ваше замовлення"

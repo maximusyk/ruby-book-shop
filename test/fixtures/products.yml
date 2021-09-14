@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString 21
+  description: MyText
+  image_url: ten-rule.jpg
+  price: 9.99
+
+two:
+  title: MyString 22
+  description: MyText
+  image_url: ten-rule.jpg
+  price: 9.99
+
+ruby:
+  title: The 10X Rule
+  description: Extreme success, by definition, lies beyond the realm of normal action. If you want to achieve extreme success, you can’t operate like everybody else and settle for mediocrity. You need to remove luck and chance from your business equation, and lock in massive success. The 10X Rule shows you how! Success is your duty, obligation and responsibility, and this audio book gives you step-by-step guidance on how to achieve phenomenal success for yourself!
+  price: 39.99
+  image_url: ten-rule.jpg
